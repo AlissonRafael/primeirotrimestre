@@ -13,9 +13,6 @@ for (let i = 0; i < botoes.length; i++) {
         textos[i].classList.add("ativo");
     }
 }
-for (let i=0; i<contadores.length;i++){
-            contadores[i].textContent = calculaTempo(tempos[i]);   
-    
 const contadores = document.querySelectorAll(".contador");
 contadores[0].textContent = calculaTempo(tempos[0]);
 const tempoObjetivo2 = new Date("2023-12-05T00:00:00");
